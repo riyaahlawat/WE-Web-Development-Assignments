@@ -1,0 +1,86 @@
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 10px;
+    background-color: #0073e6;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+.collapsible-content {
+    display: none;
+    padding: 15px; /* Add padding inside the content */
+    margin-bottom: 15px;
+    border-left: 3px solid #0073e6;
+    background-color: #f9f9f9; /* Optional: light background for better contrast */
+}
+
+p {
+    font-size: 1.1em;
+    padding: 5px;
+}
+
+.toc {
+    background-color: #0073e6;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.toc h2 {
+    color: white;
+    font-size: 1.6em;
+    margin-top: 0;
+}
+
+.toc ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.toc li {
+    margin-bottom: 8px;
+}
+
+.toc a {
+    color: white;
+    text-decoration: none;
+}
+
+.toc a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 20px;
+}
